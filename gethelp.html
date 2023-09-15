@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>student helper gethelp</title>
+		<link rel="stylesheet" href="style.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+	<body>
+		<div class="header">
+            	<button
+				style="align-self: flex-start"
+				onclick="window.location.href='index.html'"
+				class="logout"
+			>
+				logout
+			</button>
+			<h1 class="title">Get Help</h1>
+			<div class="headbuttons">
+				<button onclick="window.location.href='home.html'">home</button>
+				<button onclick="window.location.href='todo.html'">To-Do</button>
+				<button onclick="window.location.href='timetable.html'">TimeTable</button>
+			</div>
+		</div>
+		<div class="contentpad">
+			<div class="contentboxtodo">
+                <div class="formbox">
+				<p class="formbuble">FirstName:</p>
+
+				<input type="text" name="firstname" placeholder="Enter your First-Name" />
+			</div>
+
+			<div class="formbox">
+				<p class="formbuble">Email:</p>
+
+				<input
+					type="email"
+					name="email;"
+					placeholder="Enter your email"
+				/>
+			</div>
+            <div class="formbox">
+                <p class="formbuble">Select your Teacher:</p>
+                <select name="Teacher" id="Teacher">
+                    <option value="no selection">Teacher:</option>
+                    <option value="jack knowsall">Jack Knowsall</option>
+                    <option value="alisia issmart">Alisia Issmart</option>
+                    <option value="carlos mcbigbrain">Carlos McBigbrain</option>
+                    <option value="adam de teach">Adam de Teach</option>
+                    <option value="jasmine juststudy">Jasmine Juststudy</option>
+                    <option value="iranoutofnames">iranoutofnames</option>
+                </select>
+               
+
+            </div>
+            <div>
+                <p class="formbuble">Describe your problem:</p>
+                <textarea name="problem" id="problem1" cols="30" rows="10" placeholder="What do you need:"></textarea>
+            </div>
+
+			<input class="loginB" type="submit" value="Submit" onclick="window.location.reload();" />
+			<br />
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>student helper signup</title>
+		<link rel="stylesheet" href="style.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+	<body>
+		<div class="containerH">
+			<h1>
+				Welcome<br />
+				<span class="smallerH1">Sign-Up Below</span>
+			</h1>
+		</div>
+		<div class="form">
+			<div class="formbox">
+				<p class="formbuble">Firstname:</p>
+				<input
+					type="text"
+					name="firstname"
+					placeholder="Enter your firstname"
+				/>
+			</div>
+			<div class="formbox">
+				<p class="formbuble">Lastname:</p>
+				<input type="text" name="lastname" placeholder="Enter your Lastname" />
+			</div>
+
+			<div class="formbox">
+				<p class="formbuble">Username:</p>
+				<input type="text" name="username" placeholder="Choose your username" />
+			</div>
+			<div class="formbox">
+				<p class="formbuble">Password:</p>
+				<input type="password" name="password" placeholder="Enter a password" />
+			</div>
+			<input
+				onclick="window.location.href='home.html'"
+				class="loginB"
+				type="submit"
+				value="Sign-up!"
+			/>
+			<br />
+			<button onclick="window.location.href='index.html'" class="Or">
+				Have an account?
+			</button>
+			<br />
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>

@@ -1,0 +1,214 @@
+body {
+	height: 100vh;
+	background-color: #3d3a50;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+/*sign in stuff*/
+.containerH {
+	background-color: #1a1c22;
+
+	width: 70%;
+
+	display: flex;
+
+	justify-content: center;
+
+	align-items: center;
+
+	flex-direction: column;
+
+	border-radius: 50px 50px 0 0px;
+
+	max-height: 20%;
+
+	flex-shrink: 2;
+}
+
+h1 {
+	color: #d9d9d9;
+
+	display: flex;
+
+	justify-content: center;
+
+	align-items: center;
+
+	flex-direction: column;
+}
+
+.smallerH1 {
+	color: #d9d9d9;
+
+	font-size: 13px;
+}
+
+.form {
+	background-color: #1a1c22;
+
+	display: flex;
+
+	justify-content: center;
+
+	align-items: center;
+
+	flex-direction: column;
+
+	width: 95%;
+
+	border-radius: 30px;
+}
+
+.formbox {
+	display: flex;
+
+	justify-content: center;
+
+	align-items: center;
+}
+
+.formbuble {
+	background-color: #d9d9d9;
+
+	border-radius: 90px;
+
+	padding: 3px;
+}
+
+.Or {
+	background-color: #580ef6;
+
+	border: #580ef6;
+
+	border-radius: 90px;
+
+	color: #44b9de;
+}
+
+.loginB {
+	font-size: 20px;
+
+	border: solid #580ef6;
+
+	border-radius: 90px;
+
+	background-color: #580ef6;
+}
+
+/*header stuff */
+.header {
+	background-color: #1a1c22;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+}
+.title {
+	font-size: 35px;
+	border: solid #3d3a50;
+	border-radius: 50px;
+	color: #d9d9d9;
+	padding: 5px;
+}
+.headbuttons {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+button {
+	background-color: #1a1c22;
+	border: solid #3d3a50;
+	border-radius: 30px;
+	color: #580ef6;
+}
+
+/*page content stuff*/
+.contentpad {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-color: #3d3a50;
+}
+/* content box for home*/
+.contentbox {
+	width: 90%;
+	height: fit-content;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	background-color: #1a1c22;
+}
+/*content box for the other pages */
+.buttoncontainer {
+	height: 8vh;
+	width: 100%;
+}
+.contentboxtodo {
+	width: 90%;
+	height: 90%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	background-color: #1a1c22;
+}
+.buttonholder {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+.contentbutton {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.todobutton {
+	height: 75%;
+	width: 100%;
+}
+
+/*todo stuff */
+.todocontent {
+	width: 100%;
+	color: #d9d9d9;
+	align-self: self-start;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+/* home stuff */
+.todobox {
+	display: flex;
+	width: 50%;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: #d9d9d9;
+}
+.schedualbox {
+	display: flex;
+	width: 50%;
+	flex-direction: column;
+	color: #d9d9d9;
+}
+.contenthead {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	border: solid #3d3a50;
+	border-radius: 5px;
+}
