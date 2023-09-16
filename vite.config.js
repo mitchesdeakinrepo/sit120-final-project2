@@ -1,15 +1,15 @@
-import { defineConfig } from "vite";
-import vue from "@vitejs/plugin-vue";
-
 import path from "path";
-import glob from "glob";
+import vue from "vue";
 
 export default {
-	root: path.join(__dirname, "src"),
+	root: path.resolve(__dirname, "src"),
 	build: {
-		outDir: path.join(__dirname, "dist"),
+		outDir: path.resolve(__dirname, "dist"),
 		rollupOptions: {
-			input: glob.sync(path.resolve(__dirname, "src", "*.html")),
+			input: {
+				index: path.resolve(__dirname, "src/index.html"),
+				about: path.resolve(__dirname, "src/about.html"),
+			},
 		},
 	},
 	plugins: [vue()],
