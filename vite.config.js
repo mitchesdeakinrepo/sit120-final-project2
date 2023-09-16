@@ -1,8 +1,16 @@
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 
-// https://vitejs.dev/config/
-export default defineConfig({
+import path from "path";
+import glob from "glob";
+
+export default {
+	root: path.join(__dirname, "src"),
+	build: {
+		outDir: path.join(__dirname, "dist"),
+		rollupOptions: {
+			input: glob.sync(path.resolve(__dirname, "src", "*.html")),
+		},
+	},
 	plugins: [vue()],
-	base: "/sit120-final-project2",
-});
+};
